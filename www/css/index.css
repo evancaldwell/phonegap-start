@@ -78,6 +78,15 @@ h1 {
     text-align:center;
 }
 
+h2 {
+    font-size:18px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
 .status {
     background-color:#333333;
     border-radius:4px;
@@ -111,4 +120,21 @@ h1 {
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
+}
+
+#testLink {
+    font-size:18px;
+    font-weight:normal;
+    margin:10px;
+    overflow:visible;
+    padding:20px 0;
+    text-align:center;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+#testLink a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
 }
